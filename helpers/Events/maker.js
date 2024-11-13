@@ -49,7 +49,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
        let buff = await Exp.func.getBuffer(`https://api.memegen.link/images/custom/${(txt2 ? txt1 : "_").replace(" ","_")}/${(txt2 ? txt2 : txt1).replace(" ","_")}.png?background=${tmp}`)
        let res = await exif["writeExifImg"](buff, {
 				packname: 'My sticker',
-				author: 'Ⓒ' + cht.pushName
+				author: 'Ⓒ f1qxzz' + cht.pushName
 			})
        Exp.sendMessage(id, { sticker: { url: res } }, { quoted: cht })
     })
