@@ -1,5 +1,5 @@
 {
-  "name": "experimental-Bell",
+  "name": "AI BOT-V1",
   "version": "1.0.0",
   "description": "Artificial Intelligence, The beginning of the robot era",
   "main": "index.js",
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rifza123/Experimental-Bell.git"
+    "url": "git+https://github.com/f1qxzz/Experimental-Bell.git"
   },
   "keywords": [
     "whatsapp-bot-ai"
   ],
-  "author": "@rifza.p.p",
+  "author": "@f1qxzz.p.p",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rifza123/Experimental-Bell/issues"
+    "url": "https://github.com/f1qxzz/Experimental-Bell/issues"
   },
-  "homepage": "https://github.com/Rifza123/Experimental-Bell#readme",
+  "homepage": "https://github.com/f1qxzz/Experimental-Bell#readme",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@whiskeysockets/baileys": "^6.4.0",
