@@ -100,7 +100,7 @@ ${!trial ? "*🎁Yey kamu masih bisa claim trial!!*\nKetik *.freetrial* untuk me
                     title: "🔒Only Premium",
                     body: "Hanya bisa digunakan oleh user premium!",
                     thumbnailUrl: 'https://telegra.ph/file/b9cd3e450060c58ad29d9.jpg',
-                    mediaUrl: "http://ẉa.me/6283110928302/8282282",
+                    mediaUrl: "http://ẉa.me/62895422604542/8282282",
                     sourceUrl: `https://wa.me/${owner[0].split("@")[0]}?text=Hello,+I+have+buy+🔑Premium`,
                     renderLargerThumbnail: true,
                     showAdAttribution: true,
