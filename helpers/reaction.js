@@ -52,7 +52,7 @@ async function react({ cht, Exp, store, is, ev }) {
 		   case "🔊":
 		   case "🎙️":
 		   case "🎤":
-		       cht.cmd = "bella"
+		       cht.cmd = "f1qxzz"
 		       cht.q = text
 		       return ev.emit(cht.cmd)
 		   
