@@ -40,7 +40,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
             if(status == 500) return cht.reply('Grub penuh!')
             if(status == 403) return cht.reply("Maaf, gabisa ditambah karna private acc")
         } else {
-            let reply = `*Sertakan nomor/Reply/tag target yang akan ${cht.cmd} dari group!*\n\nExample: \n\n*Cara #1* => _Dengan reply pesan target_\n - ${prefix + cht.cmd} \n \n*Cara #2* => _Dengan tag target_\n - ${prefix + cht.cmd} @rifza \n \n*Cara #2* => _Dengan nomor target_\n - ${prefix + cht.cmd} +62 831-xxxx-xxxx` 
+            let reply = `*Sertakan nomor/Reply/tag target yang akan ${cht.cmd} dari group!*\n\nExample: \n\n*Cara #1* => _Dengan reply pesan target_\n - ${prefix + cht.cmd} \n \n*Cara #2* => _Dengan tag target_\n - ${prefix + cht.cmd} @f1qxzz \n \n*Cara #2* => _Dengan nomor target_\n - ${prefix + cht.cmd} +62 831-xxxx-xxxx` 
             cht.reply(reply)
         }
 	})
@@ -56,7 +56,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
                 Exp.sendMessage(cht.id, { image: { url: await Exp.profilePictureUrl(cht.mention[0]) }})
                 .catch(e => cht.reply("Gabisa, keknya dia gapake pp"))
         } else {
-            let reply = `*Sertakan nomor/Reply/tag target yang akan ambil pp nya!*\n\nExample: \n\n*Cara #1* => _Dengan reply pesan target_\n - ${prefix + cht.cmd} \n \n*Cara #2* => _Dengan tag target_\n - ${prefix + cht.cmd} @rifza \n \n*Cara #2* => _Dengan nomor target_\n - ${prefix + cht.cmd} +62 831-xxxx-xxxx` 
+            let reply = `*Sertakan nomor/Reply/tag target yang akan ambil pp nya!*\n\nExample: \n\n*Cara #1* => _Dengan reply pesan target_\n - ${prefix + cht.cmd} \n \n*Cara #2* => _Dengan tag target_\n - ${prefix + cht.cmd} @f1qxzz \n \n*Cara #2* => _Dengan nomor target_\n - ${prefix + cht.cmd} +62 831-xxxx-xxxx` 
             cht.reply(reply)
         }
 	})
